@@ -1,6 +1,7 @@
 ﻿using AVS.DesignPatterns.Creational.MethodFactory;
 using AVS.DesignPatterns.Creational.AbstractFactory;
 using System;
+using AVS.DesignPatterns.Creational.Singleton;
 
 namespace AVS.DesignPatterns
 {
@@ -32,7 +33,7 @@ namespace AVS.DesignPatterns
                     ExecutionFactoryMethod.Run();
                     break;
                 case '3':
-                    // Not implemented
+                    ExecutionSingleton.Run();
                     break;
                 default:
                     break;

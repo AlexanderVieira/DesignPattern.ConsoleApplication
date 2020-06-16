@@ -1,5 +1,6 @@
 ﻿namespace AVS.DesignPatterns.Creational.MethodFactory
 {
+    // Concrete Product
     public class MySqlConnector : DbConnector
     {
         public MySqlConnector(string connectionString) : base(connectionString)
