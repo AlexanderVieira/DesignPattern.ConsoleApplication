@@ -1,4 +1,5 @@
-﻿using AVS.DesignPatterns.Creational.AbstractFactory;
+﻿using AVS.DesignPatterns.Creational.MethodFactory;
+using AVS.DesignPatterns.Creational.AbstractFactory;
 using System;
 
 namespace AVS.DesignPatterns
@@ -28,7 +29,7 @@ namespace AVS.DesignPatterns
                     ExecutionAbstractFactory.Run();
                     break;
                 case '2':
-                    // Not implemented
+                    ExecutionFactoryMethod.Run();
                     break;
                 case '3':
                     // Not implemented
