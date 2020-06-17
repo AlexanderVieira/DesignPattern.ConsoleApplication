@@ -2,6 +2,7 @@
 using AVS.DesignPatterns.Creational.AbstractFactory;
 using System;
 using AVS.DesignPatterns.Creational.Singleton;
+using AVS.DesignPatterns.Structural.Adapter;
 
 namespace AVS.DesignPatterns
 {
@@ -16,6 +17,12 @@ namespace AVS.DesignPatterns
             Console.WriteLine("1 - Abstract Factory");
             Console.WriteLine("2 - Method Factory");
             Console.WriteLine("3 - Singleton");
+            Console.WriteLine("------------------------");
+            Console.WriteLine("Structural Patterns");
+            Console.WriteLine("------------------------");
+            Console.WriteLine("4 - Adapter");
+            Console.WriteLine("5 - Facade");
+            Console.WriteLine("6 - Composite");
             Console.WriteLine("------------------------");
 
             var option = Console.ReadKey();
@@ -34,6 +41,9 @@ namespace AVS.DesignPatterns
                     break;
                 case '3':
                     ExecutionSingleton.Run();
+                    break;
+                case '4':
+                    ExecutionAdapter.Run();
                     break;
                 default:
                     break;
