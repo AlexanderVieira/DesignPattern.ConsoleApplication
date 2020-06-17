@@ -3,6 +3,7 @@ using AVS.DesignPatterns.Creational.AbstractFactory;
 using System;
 using AVS.DesignPatterns.Creational.Singleton;
 using AVS.DesignPatterns.Structural.Adapter;
+using AVS.DesignPatterns._02.Structural._2._2.Facade;
 
 namespace AVS.DesignPatterns
 {
@@ -44,6 +45,9 @@ namespace AVS.DesignPatterns
                     break;
                 case '4':
                     ExecutionAdapter.Run();
+                    break;
+                case '5':
+                    ExecutionFacade.Run();
                     break;
                 default:
                     break;
