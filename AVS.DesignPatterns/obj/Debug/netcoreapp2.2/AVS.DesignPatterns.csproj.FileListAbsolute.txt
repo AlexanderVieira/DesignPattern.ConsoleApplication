@@ -3,6 +3,7 @@ C:\Users\Alexander\source\repos\DesignPatterns\AVS.DesignPatterns\bin\Debug\netc
 C:\Users\Alexander\source\repos\DesignPatterns\AVS.DesignPatterns\bin\Debug\netcoreapp2.2\AVS.DesignPatterns.runtimeconfig.dev.json
 C:\Users\Alexander\source\repos\DesignPatterns\AVS.DesignPatterns\bin\Debug\netcoreapp2.2\AVS.DesignPatterns.dll
 C:\Users\Alexander\source\repos\DesignPatterns\AVS.DesignPatterns\bin\Debug\netcoreapp2.2\AVS.DesignPatterns.pdb
+C:\Users\Alexander\source\repos\DesignPatterns\AVS.DesignPatterns\obj\Debug\netcoreapp2.2\AVS.DesignPatterns.csprojAssemblyReference.cache
 C:\Users\Alexander\source\repos\DesignPatterns\AVS.DesignPatterns\obj\Debug\netcoreapp2.2\AVS.DesignPatterns.csproj.CoreCompileInputs.cache
 C:\Users\Alexander\source\repos\DesignPatterns\AVS.DesignPatterns\obj\Debug\netcoreapp2.2\AVS.DesignPatterns.AssemblyInfoInputs.cache
 C:\Users\Alexander\source\repos\DesignPatterns\AVS.DesignPatterns\obj\Debug\netcoreapp2.2\AVS.DesignPatterns.AssemblyInfo.cs
