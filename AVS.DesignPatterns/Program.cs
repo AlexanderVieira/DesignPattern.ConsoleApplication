@@ -5,6 +5,7 @@ using AVS.DesignPatterns.Creational.Singleton;
 using AVS.DesignPatterns.Structural.Adapter;
 using AVS.DesignPatterns._02.Structural._2._2.Facade;
 using AVS.DesignPatterns.Structural.Composite;
+using AVS.DesignPatterns.Behavioral.Command;
 
 namespace AVS.DesignPatterns
 {
@@ -25,6 +26,12 @@ namespace AVS.DesignPatterns
             Console.WriteLine("4 - Adapter");
             Console.WriteLine("5 - Facade");
             Console.WriteLine("6 - Composite");
+            Console.WriteLine("------------------------");
+            Console.WriteLine("Behavioral Patterns");
+            Console.WriteLine("------------------------");
+            Console.WriteLine("7 - Command");
+            Console.WriteLine("8 - Strategy");
+            Console.WriteLine("9 - Observer");
             Console.WriteLine("------------------------");
 
             var option = Console.ReadKey();
@@ -52,6 +59,9 @@ namespace AVS.DesignPatterns
                     break;
                 case '6':
                     ExecutionCompoiste.Run();
+                    break;
+                case '7':
+                    ExecutionCommand.Run();
                     break;
                 default:
                     break;
